@@ -10,4 +10,28 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+**[TODO 05/01/2018 @vanessa-cooper]:** \_It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?
+
+1. Clone the repo
+    ```
+    git clone https://github.com/ObelusFamily/Anythink-Market-5tuyp.git
+    ```
+
+2. [Install docker](https://docs.docker.com/get-docker/)
+
+3. Verify docker is ready by running
+    ```
+    docker -v
+    ```
+    and
+    ```
+    docker-compose -v
+    ```
+    commands on your terminal.
+
+4. Start docker desktop on your machine
+
+5. Navigate to the project directory of the cloned repository and run,
+    ```
+    docker-compose up
+    ```
